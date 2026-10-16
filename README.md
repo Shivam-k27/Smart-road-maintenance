@@ -30,27 +30,44 @@ A full-stack web platform designed for digital civic infrastructure management. 
 Smart-road-maintenance/
 ├── frontend/     # React + Vite application
 └── server/       # Node.js + Express API server
+```
+
 ---
-Backend (/server/.env)
+
+## ⚙️ Environment Variables
+
+### Backend (`/server/.env`)
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
-Frontend (/frontend/.env)
+### Frontend (`/frontend/.env`)
+```env
 VITE_API_URL=[https://smart-road-maintenance.onrender.com/api](https://smart-road-maintenance.onrender.com/api)
+```
 
-💻 Local Setup
+---
 
-Clone the repository: git clone [https://github.com/Shivam-k27/Smart-road-maintenance.git](https://github.com/Shivam-k27/Smart-road-maintenance.git)
-cd Smart-road-maintenance
+## 💻 Local Setup
 
-Start Backend Server:
-cd server
-npm install
-npm start
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Shivam-k27/Smart-road-maintenance.git](https://github.com/Shivam-k27/Smart-road-maintenance.git)
+   cd Smart-road-maintenance
+   ```
 
-Start Frontend Application:
-cd ../frontend
-npm install
-npm run dev
+2. **Start Backend Server:**
+   ```bash
+   cd server
+   npm install
+   npm start
+   ```
 
+3. **Start Frontend Application:**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run dev
+   ```
